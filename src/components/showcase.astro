@@ -59,7 +59,10 @@ const {heading = "Welcome To The Astro Crash Site", text = "build super fast HTM
 
 .showcase h1 {
   font-size: 50px;
-  color: white;
+  background: linear-gradient(to right, #0f172a, #6b21a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+//   color: white;
   margin-bottom: 20px;
 }
 
@@ -78,7 +81,7 @@ const {heading = "Welcome To The Astro Crash Site", text = "build super fast HTM
 }
 
 .showcase-demo {
-  color: white;
+  color: #0f172a;
   text-align: center;
   font-weight: 300;
 }
